@@ -5,12 +5,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'com.guardsquare', name: 'proguard-gradle', version: '7.2.0-beta2'
+        classpath group: 'com.guardsquare', name: 'proguard-gradle', version: '7.3.2'
     }
 }
 
 plugins {
     id 'java'
+    id 'net.minecrell.plugin-yml.paper' version '0.6.0'
 }
 
 group = project.plugin_group as Object
@@ -50,8 +51,11 @@ dependencies {
 }
 
 processResources {
-    def properties = [version: project.plugin_version, name: project.plugin_name,
-                      group  : project.plugin_group, website: project.plugin_website,
+    def properties = [
+            version: project.plugin_version,
+                      name: project.plugin_name,
+                      group  : project.plugin_group,
+            website: project.plugin_website,
                       author : project.plugin_author]
     inputs.properties properties
     filteringCharset 'UTF-8'
