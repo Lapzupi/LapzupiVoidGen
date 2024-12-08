@@ -5,7 +5,7 @@ import com.google.gson.JsonSyntaxException;
 import de.xtkq.voidgen.generator.annotations.VoidChunkGenInfo;
 import de.xtkq.voidgen.generator.interfaces.ChunkGen;
 import de.xtkq.voidgen.generator.settings.ChunkGenSettings;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BiomeProvider;
 import org.bukkit.generator.WorldInfo;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 
-@VoidChunkGenInfo(versions = {"1.19", "1.19.1", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1"})
+@VoidChunkGenInfo(versions = {"1.19", "1.19.1", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1", "1.21", "1.21.1", "1.21.4"})
 public class VoidChunkGen_1_19 extends ChunkGen {
 
     public VoidChunkGen_1_19(JavaPlugin javaPlugin, String paramIdentifier) {

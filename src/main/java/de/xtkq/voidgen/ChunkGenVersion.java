@@ -5,5 +5,6 @@ public enum ChunkGenVersion {
     VERSION_1_15,
     VERSION_1_17,
     VERSION_1_17_1,
+    VERSION_1_19,
     VERSION_UNKNOWN
 }

@@ -10,7 +10,8 @@
 # VoidGen
 
 VoidGen is a Minecraft plugin that enables server owners to create countless custom void worlds with a powerful and
-lightweight generator system. The plugin is made to handle all aspects of how you create void worlds. If you find any bug or have crashed because of the plugin, please report it at
+lightweight generator system. The plugin is made to handle all aspects of how you create void worlds. If you find any
+bug or have crashed because of the plugin, please report it at
 my [official Discord server](https://discord.gg/Q7yj32FMFh).
 
 ## How To
@@ -22,6 +23,7 @@ Find out how to setup and use the plugin on the [Tutorial page](docs/tutorial.md
 
 Find answers to frequently asked questions on the [FAQ page](docs/faq.md).
 --->
+
 ## License
 
 VoidGen is licensed under
